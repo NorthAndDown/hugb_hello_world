@@ -1,0 +1,7 @@
+#!/bin/bash
+rm -rf /tmp/HelloWorld
+cp -r build/install/hugb_hello_world /tmp/HelloWorld
+echo "HelloWorld install folder copied to /tmp/HelloWorld"
+cd /tmp/HelloWorld/
+./bin/HelloWorld
+
